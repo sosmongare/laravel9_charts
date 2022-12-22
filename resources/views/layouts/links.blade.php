@@ -39,7 +39,11 @@ function drawChart() {
     title: 'County names'
   },
   vAxis: {
-    title: 'Population in mil'
+    title: 'Population in mil',
+    viewWindow: {
+      min: 0,
+      max: 4500000
+    }
   },
     curveType: 'function',
     legend: { position: 'bottom' }
